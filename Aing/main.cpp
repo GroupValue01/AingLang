@@ -1,10 +1,10 @@
-#include <iostream>
-#include "pointer.h"
+#include "aing.h"
+#include "longString.h"
 
 int main(int argc, char** argv) {
-	char code[327680];
-	std::cin >> code;
+	longstring code;
 
+	
 	
 	return 0;
 }
