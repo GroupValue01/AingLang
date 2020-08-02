@@ -1,5 +1,12 @@
 # 난해한 아잉 언어 AingLang
 
+## 만든사람
+나무
+역할: 부기획, 코딩
+
+아무닉 [유튜브 채널](https://www.youtube.com/channel/UCXNaIFo0MqLT4hW4TY2xJqQ)
+역할: 주기획, 코딩(AtB, BtA)
+
 ## 현제 완료된 프로그램
 [AtB](https://github.com/GroupValue01/AingLang/tree/master/AingLang_to_BrainFuck)
 아잉어를 브레인퍽으로 바꿔 주는 프로그램
