@@ -1,7 +1,7 @@
 #include "code.h"
 
 char* Code::getCode(wstring wstr) {
-    char arr[1000000] = wstr;
+    const wchar_t *arr = wstr.c_str();
 
     char spl[INT_MAX];
 
