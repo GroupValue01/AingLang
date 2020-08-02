@@ -14,3 +14,4 @@
 .tlog
 .lastbuildstate
 *.json
+debug_test
