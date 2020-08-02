@@ -4,41 +4,34 @@
 #include <cstdlib>
 
 int main(int argc, char* argv[]) {
-	char arr[20][16384] = { {0,}, };
-	char arr2[40][16384] = { {0,}, };
-
-
 	bool b=true;
 
 
 	int i, j;
 	char a;
-	for (i = 0; i < 20 && b; i++) {
-		for (j = 0; j < 16383 && b; j++) {
-			a = (char)getchar();
-			if (a == '\n') {
-				b = false;
-			}else if (a == 62) {
-				std::cout << "¾ÆÀÌÀ×";
-			}else if (a == 60) {
-				std::cout << "¾ÆÀÌÀÌÀ×";
-			}else if (a == 43) {
-				std::cout << "¾ÆÀÌÀÌÀÌÀ×";
-			}else if (a == 45) {
-				std::cout << "¾ÆÀÌÀÌÀÌÀÌÀ×";
-			}else if (a == 46) {
-				std::cout << "¾ÆÀÌÀÌÀÌÀÌÀÌÀ×";
-			}else if (a == 44) {
-				std::cout << "¾ÆÀÌÀÌÀÌÀÌÀÌÀÌÀ×";
-			}else if (a == 91) {
-				std::cout << "¾ÆÀÌÀÌÀÌÀÌÀÌÀÌÀÌÀ×";
-			}else if (a == 93) {
-				std::cout << "¾ÆÀÌÀÌÀÌÀÌÀÌÀÌÀÌÀÌÀ×";
-			}
-			arr[i][j] = a;
+	while(b){
+		a = (char)getchar();
+		if (a == '\n') {
+			b = false;
+		}else if (a == 62) {
+			std::cout << "ì•„ì´ìž‰";
+		}else if (a == 60) {
+			std::cout << "ì•„ì´ì´ìž‰";
+		}else if (a == 43) {
+			std::cout << "ì•„ì´ì´ì´ìž‰";
+		}else if (a == 45) {
+			std::cout << "ì•„ì´ì´ì´ì´ìž‰";
+		}else if (a == 46) {
+			std::cout << "ì•„ì´ì´ì´ì´ì´ìž‰";
+		}else if (a == 44) {
+			std::cout << "ì•„ì´ì´ì´ì´ì´ì´ìž‰";
+		}else if (a == 91) {
+			std::cout << "ì•„ì´ì´ì´ì´ì´ì´ì´ìž‰";
+		}else if (a == 93) {
+			std::cout << "ì•„ì´ì´ì´ì´ì´ì´ì´ì´ìž‰";
 		}
 	}
-
+	std::cout << std::endl;
 	system("pause");
 	return 0;
 }
