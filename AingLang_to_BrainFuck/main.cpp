@@ -4,38 +4,33 @@
 #include <cstdlib>
 
 int main(int argc, char* argv[]) {
-
-
 	bool b=true;
-
-
 	int i, j;
 	char a;
 
     char de[9]={'>', '<', '+', '-', '.', ',', '[', ']', 0};
 
-    int stack=-1000;
-	for (i = 0; i < 20 && b; i++) {
-		for (j = 0; j < 16383 && b; j++) {
-			a = (char)getchar();
-			if (a == '\n') {
-				b = false;
-			}else if(a==-66){//아
-                a = (char)getchar();
-                if(a==-58)stack=0;
-            }else if(a==-64){
-                a = (char)getchar();
-                if(a==-52){//이
-                    stack+=1;
-                }else if(a==-41){//잉
-                    if(stack>0 && stack<9){
-                        std::cout << de[stack-1];
-                    }
+    int x=-1000;
+	while(b) {
+		a = (char)getchar();
+		if (a == '\n') {
+			b = false;
+		}else if(a==-66){//아
+            a = (char)getchar();
+            if(a==-58)x=0;
+        }else if(a==-64){
+            a = (char)getchar();
+            if(a==-52){//이
+                x+=1;
+            }else if(a==-41){//잉
+                if(x>0 && x<9){
+                    std::cout << de[x-1];
                 }
+                x=-1000;
             }
 		}
 	}
-
+    std::cout << "\n";
 	system("pause");
 	return 0;
 }
