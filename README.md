@@ -21,7 +21,7 @@ Man
 브레인퍽을 아잉어로 바꿔 주는 프로그램
 
 [BtE](https://github.com/GroupValue01/AingLang/tree/master/BrainFuck_to_english)
-브레인퍽을 아잉어로 바꿔 주는 프로그램
+브레인퍽을 어로 바꿔 주는 프로그램
 
 ## 명령어
 명령어는 아주 단순합니다.`아` 와 `이` 그리고 `잉` 만으로 이루어져 있습니다.
