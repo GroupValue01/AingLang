@@ -1,5 +1,8 @@
 # 난해한 아잉 언어 AingLang
 
+##제작한 팀
+[GroupValue](http://groupvalue.kro.kr/)
+
 ## 만든사람
 나무
 역할: 부기획, 코딩
