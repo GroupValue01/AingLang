@@ -20,7 +20,7 @@ Man
 [BtA](https://github.com/GroupValue01/AingLang/tree/master/BrainFuck_to_AingLang)
 브레인퍽을 아잉어로 바꿔 주는 프로그램
 
-[BtE](https://github.com/GroupValue01/AingLang/tree/master/BrainFuck_to_English)
+[BtE](https://github.com/GroupValue01/AingLang/tree/master/BrainFuck_to_english)
 브레인퍽을 아잉어로 바꿔 주는 프로그램
 
 ## 명령어
