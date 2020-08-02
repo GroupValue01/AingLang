@@ -1,6 +1,6 @@
 # 난해한 아잉 언어 AingLang
 
-##제작한 팀
+## 제작한 팀
 [GroupValue](http://groupvalue.kro.kr/)
 
 ## 만든사람
@@ -10,11 +10,17 @@
 아무닉 [유튜브 채널](https://www.youtube.com/channel/UCXNaIFo0MqLT4hW4TY2xJqQ)
 역할: 주기획, 코딩(AtB, BtA)
 
+Man
+역할: 코딩(BtE)
+
 ## 현제 완료된 프로그램
 [AtB](https://github.com/GroupValue01/AingLang/tree/master/AingLang_to_BrainFuck)
 아잉어를 브레인퍽으로 바꿔 주는 프로그램
 
 [BtA](https://github.com/GroupValue01/AingLang/tree/master/BrainFuck_to_AingLang)
+브레인퍽을 아잉어로 바꿔 주는 프로그램
+
+[BtE](https://github.com/GroupValue01/AingLang/tree/master/BrainFuck_to_English)
 브레인퍽을 아잉어로 바꿔 주는 프로그램
 
 ## 명령어
