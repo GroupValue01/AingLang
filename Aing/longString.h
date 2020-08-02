@@ -22,6 +22,32 @@ public:
 		}
 	}
 
+	void set() {
+		int i, j;
+		char a;
+		for (i = 0; i < 20; i++) {
+			for (j = 0; j < 16383;j++) {
+				a = (char)getchar();
+				if (a == '\n') {
+					return;
+				}
+				arr[i][j] = a;
+			}
+		}
+	}
+
+	void inputTest() {
+		int i, j;
+		for (i = 0; i < 20; i++) {
+			for (j = 0; j < 16383; j++) {
+				if (arr[i][j] == 0) {
+					return;
+				}
+				cout << arr[i][j];
+			}
+		}
+	}
+
 	void next() {
 		if (pos[1] >= 16383) {
 			if (pos[0] >= 20) {
