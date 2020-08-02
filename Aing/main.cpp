@@ -10,6 +10,16 @@ int main(int argc, char** argv) {
 	wstring ac;
 	
 	wcin >> ac;
+
+	std::cout << std::endl;
+
+	char* charArray = code.getCode(ac);
+
+	for(int i = 0; i < sizeof(charArray); i++) {
+		std::cout << charArray[i];
+	}
+
+	std::cout << std::endl;
 	
 	system("pause");
 
