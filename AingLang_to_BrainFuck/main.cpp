@@ -5,7 +5,6 @@
 
 int main(int argc, char* argv[]) {
 	bool b=true;
-	int i, j;
 	char a;
 
     char de[9]={'>', '<', '+', '-', '.', ',', '[', ']', 0};
