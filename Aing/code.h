@@ -1,3 +1,4 @@
+#include "aing.h"
 // command define
 #define addPointer 1
 #define subPointer 2
@@ -10,5 +11,5 @@
 
 class Code {
     public:
-        int * getCode(char charArray[]);
+        char * getCode(wstring charArray[]);
 };
