@@ -18,33 +18,21 @@ int main(int argc, char* argv[]) {
 			a = (char)getchar();
 			if (a == '\n') {
 				b = false;
-			}
-			if (a == 62) {
+			}else if (a == 62) {
 				std::cout << "아이잉";
-			}
-			if (a == 60) {
+			}else if (a == 60) {
 				std::cout << "아이이잉";
-			}
-			if (a == 43) {
+			}else if (a == 43) {
 				std::cout << "아이이이잉";
-			}
-			if (a == 45) {
+			}else if (a == 45) {
 				std::cout << "아이이이이잉";
-			}
-
-			if (a == 46) {
+			}else if (a == 46) {
 				std::cout << "아이이이이이잉";
-			}
-
-			if (a == 44) {
+			}else if (a == 44) {
 				std::cout << "아이이이이이이잉";
-			}
-
-			if (a == 91) {
+			}else if (a == 91) {
 				std::cout << "아이이이이이이이잉";
-			}
-
-			if (a == 93) {
+			}else if (a == 93) {
 				std::cout << "아이이이이이이이이잉";
 			}
 			arr[i][j] = a;
