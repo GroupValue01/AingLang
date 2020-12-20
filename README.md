@@ -7,7 +7,7 @@
 나무
 역할: 부기획, 코딩
 
-아무닉 [유튜브 채널](https://www.youtube.com/channel/UCXNaIFo0MqLT4hW4TY2xJqQ)
+아무닉, 허성범 [유튜브 채널](https://www.youtube.com/channel/UCXNaIFo0MqLT4hW4TY2xJqQ)
 역할: 주기획, 코딩(AtB, BtA, EtB)
 
 Man
